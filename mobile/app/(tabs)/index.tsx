@@ -16,32 +16,32 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">banco do ricardo</ThemedText>
+        <ThemedText type="title">olá, ricardo </ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">saldo</ThemedText>
+        <ThemedText type="subtitle">conta</ThemedText>
         <ThemedText>
-         <ThemedText type="defaultSemiBold">15,00</ThemedText> 
-          Press{' '}
+         <ThemedText type="defaultSemiBold"></ThemedText> 
+          {' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
               android: 'cmd + m',
-              web: 'F12'
+              web: ''
             })}
           </ThemedText>{' '}
-          dinheiro em reais
+          90,00
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle"> investimentos/bolsa </ThemedText>
+        <ThemedText type="subtitle"> area de PIX </ThemedText>
         <ThemedText>
-          Tap  
+      meu Cartão  
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle"></ThemedText>
         <ThemedText>
           When you're ready, run{' '}
           <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
